@@ -1,0 +1,1097 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    height: 100vh;
+    width: 98.5vw;
+    overflow-x: hidden ;
+}
+.nav-bar{
+    width: 95%;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /*background-color: #222222;*/
+}
+.menu li{
+    list-style-type: none;
+}
+.menu li a{
+    text-decoration: none;
+    color:#6F6F6F;
+}
+.menu li:hover{
+    border-bottom: 2px solid black;
+}
+.menu li:hover .icic {
+        color:#0f0d0d;
+        transition: .5s;
+}
+.menu li:hover .link {
+        color:#0f0d0d;
+        transition: .5s;
+}
+.menu li a:hover i{
+        color:#222222;
+        transition: .5s;
+}
+.u{
+    border-bottom: 2px solid black;
+}
+.menu li a:hover{
+    color:#222222;
+    transition: .5s;
+}
+.child-1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua */
+}
+.menu{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua */
+    gap: 30px;
+}
+.menu li i{
+    color:#666666;
+}
+/* .menu li i:hover{
+    color:#222222;
+    transition: .5s;
+    text-decoration: underline;
+} */
+.logo{
+    height: 80%;
+    width: 30%;
+    /*background-color: blanchedalmond;*/
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons{
+    font-size: 25px;
+    position: relative;
+}
+.main{
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+}    
+.img-bg{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    background-image: url(https://mafoil-furnitures.myshopify.com/cdn/shop/files/1.jpg?v=1678093359);
+    background-size: cover;
+    background-position: center;
+}
+.cart{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #222222;
+    color: #ffffff;
+    line-height: 18px;
+    font-size: 10px;
+    text-align: center;
+    right: -6%;
+    top: -20%;
+    border: none;
+}
+.wishlist{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    line-height: 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    background: #222222;
+    border-radius: 50%;
+    font-size: 10px;
+    border: none;
+    left: 67%;
+    top: -20%;
+    border: none;
+}
+.heading{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    position: absolute;
+    /* text-align: left; */
+    top: 11%;
+    left: 5%;
+}
+.h1{
+    font-size: 69px;
+    font-weight: 500;
+    color: #222222;
+}
+.h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    /*background-color: #8c1717;*/
+}
+.para{
+    color: #9A9A9A;
+}
+.view-collection{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #222222;
+    padding: 0px 43px 0px 43px;
+    overflow: hidden;
+    border: 1px solid #222222;
+    width: 200px;
+    height: 50px;
+}
+.view-collection:hover{
+    background-color: #F6F6F6;
+    transition: .5s;
+    border: 1px solid #222222;
+    color: #222222;
+}
+/*.sliders{
+   /* display: flex;
+    gap: 20%;
+    font-size: 25%;
+    top: 50px;
+    right: 50px;
+}*/   
+.slide-button1-pro{
+    width: 38px;
+    height: 38px;
+    background-color: #222222;
+    border-radius: 50%;
+    border: none;
+    color: #f7f2f2;
+    text-align: center;
+    font-size: 80%;
+    position: absolute;
+    left: 80%;
+    top: 102%;
+    line-height: 20%;
+    display: inline-block;
+}
+.slide-button2{
+    width: 38px;
+    height: 38px;
+    background-color: #E4E4E4;
+    border-radius: 50%;
+    border: none;
+    color: #222222;
+    text-align: center;
+    font-size: 80%;
+    left: 84.3%;
+    top: 102%;
+    position: absolute;
+    line-height: 20%;
+    display: inline-block;
+}
+.slide-button2:hover .slide-button1-pro{
+    background: #E4E4E4;
+    color: black;
+}
+.slide-button{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    line-height: 20%;
+    display: inline-block;
+    color: #222222;
+    text-align: center;
+    background: #E4E4E4;
+    border-radius: 50%;
+    font-size: 80%;
+    border: none;
+    left: 88.5%;
+    top: 102%;
+}
+.slide-button1:hover{
+    color: #ffffff;
+    border: none;
+    background-color: #222222;
+}
+.slide-button2:hover{
+    color: #ffffff;
+    border: none;
+    background-color: #222222;
+}
+.slide-button:hover{
+    color: #ffffff;
+    border: none;
+    background-color: #222222;
+}
+.df{
+    width: 95%;
+    height: 30vh;
+    /*background-color: #8c1717;*/
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 9%;
+    position: relative;
+}
+/*.but-bg{
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    border-radius: 50%;
+    border: none;
+    color: #e7dbdb;
+    text-align: center;
+    font-size: 14px;
+}*/
+.collection-img{
+    width: 47.2%;
+    height: 20%;
+    margin-left: 2.5%;
+    position: relative;
+}
+.U-Collection{
+    font-size: 50px;
+    font-weight: 400;
+    color: #222222;
+    margin-left: 41.7%;  
+    position: absolute; 
+    top: 175%;
+} 
+.read-more{
+    color: #222222;
+    bottom: 50%;
+    margin-left: 55%;
+    top: 220%;
+    position: absolute;
+}
+.circle{
+    width: 135px;
+    height: 135px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 37%;
+    top: 170%;
+    border-right-color: transparent;
+}
+.para1{
+    margin-left: 55%;
+    top: 200%;
+    position: absolute;
+    color: #6F6F6F;
+}
+.best-sellers{
+    margin-left: 2.3%;
+    font-size: 250%;
+    margin-top: 35px;
+    font-weight: 459;
+}
+.para2{
+    color: #6F6F6F;
+    margin-left: 2.4%;
+}
+.arrow-left{
+    /*background-color: #8c1717;*/
+    top: 127%;
+    left: 3px;
+    position: absolute;
+}
+.arrow-right{
+    /*background: #8c1717;*/
+    position: absolute;
+    right: 3px;
+    top: 127%;
+}
+.container{
+    width: 95%;
+    height: 100%;
+    /*background-color: aquamarine;*/
+    margin:  30px auto;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+.product{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.product:hover .icons1{
+    opacity: 1;
+    transition: .5s;
+}
+.product-review{
+    color: #9A9A9A;
+    font-size: 15px;
+    text-align: center;
+}
+.decors{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    left: 12.9px;
+    border: .3px solid #DDDDDD;
+}
+.product:hover .decors1{
+    opacity: 0;
+}
+.decors1{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border: .3px solid #DDDDDD;
+    position: absolute;
+}
+.button{
+    width: 110px;
+    height: 20px;
+    background-color: #DDDDDD;
+    color: #FFFEFE;
+    border: none;
+}
+.stock{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+.stock1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    right: 72%;
+    top: 5%;
+}
+.icons1{
+    background-color: #7D7D7D;
+    color: #F6F6F6;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    bottom: 42.6%;
+    width: 100%;
+    height:48px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.count{
+    width: 40%;
+    height: 35px;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    align-items: center;
+    margin-top: 132px;
+    opacity: 0;
+    display: flex;
+    gap: 25px;
+}
+.minus{
+    border-radius: 50%;
+    /*background-color: #666666;*/
+    font-size: larger;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    margin-left: 5px;
+}
+.minus:hover{
+    background-color: #EDEDED;
+    transform-origin: .5s;
+}
+.plus{
+    border-radius: 50%;
+    font-size: medium;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.plus:hover{
+    background-color: #EDEDED;
+    transition: .5s;
+}
+.add{
+    width: 50%;
+    height: 34px;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    align-items: center;
+    margin-top: 175px;
+    opacity: 0;
+}
+.add:hover{
+    color: #FFFFFF;
+    background-color: #0f0d0d;
+    border: 1px solid #0f0d0d;
+}
+.product:hover .count{
+    opacity: 1;
+    transition: .5s;
+}
+.product count:hover .i{
+    opacity: 0;
+    transition: .5s;
+}
+.product:hover .add {
+    opacity: 1;
+    transition: .5s;
+}
+.product add:hover .i{
+    opacity: 1;
+    transition: .5s;
+}
+.arrow-left1{
+    /*background-color: #8c1717;*/
+    top: 323%;
+    left: 5px;
+    position: absolute;
+}
+.arrow-right1{
+    /*background: #8c1717;*/
+    position: absolute;
+    right: 5px;
+    top: 323%;
+}
+.discount{
+    width: 60px;
+    height: 20px;
+    background-color:#222222;
+    color: #FFFEFE;
+    border: none;
+}
+.banner-img{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.chair-img{
+    margin-left: 30px;
+    top: 1%;
+    height: 110vh;
+    width: 37.5vw;
+}
+.armchairs{
+    margin-top: 45%;
+    left: 220px;
+    position: absolute;
+    color: #222222;
+}
+.outer-circle{
+    border-radius: 50%;
+    border: 1px solid #222222;
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    margin-left: 35%;
+    top: 389%; 
+}
+
+.inner-circle{
+    border-radius: 50%;
+    background-color: #222222;
+    border: 1px solid #222222;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    margin-left: 447px;
+    top: 2181px;
+}
+.sale{
+    text-align: center;
+    font-size: larger;
+    color: #F6F6F6;
+    top: 2210px;
+    margin-left: 445px;
+    position: absolute;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+}
+.sale1{
+    font-size: 45px;
+    color: #F6F6F6;
+    text-align: center;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    margin-left: 448px;
+    top: 2225px;
+}
+.sofa{
+    width:47.5%;
+    height: 125vh;
+    margin-left: 630px;
+    top: 383%;
+    position: absolute;
+} 
+.wordings{
+     margin-left: 492px;
+     top: 2715px;
+     color: #222222;
+     font-size: 40px;
+     font-weight: 499.9;
+     line-height: 45px;
+     position: absolute;
+}
+.para3{
+    margin-left: 495px;
+    top: 2791px;
+    position: absolute;
+    color: #6F6F6F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.shop-now{
+    top: 2915px;
+    left: 495px;
+    position: absolute;
+    color: #222222;
+} 
+.scrolable-img{
+    background-image: url(https://mafoil-furnitures.myshopify.com/cdn/shop/files/bg-new.jpg?v=1678172930);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 95%;
+    height: 95%;
+    margin-top:180px;
+    margin-left: 30px;
+    position: relative;
+}
+.box{
+    width: 97.5%;
+    height: 55%;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+.email-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1 px solid #222222;
+    background-color: #222222;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 43px;
+
+}
+.email-icon{
+    width: 50px;
+    height: 50px;
+    font-size: 70px;
+    position: absolute;
+    align-items: center;
+    color: #FFFFFF;
+    left: 47%;
+    top: 52px;
+}
+.signup{
+    width: 350px;
+    height: 150px;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-right: 1.5px solid #E9E9E9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-color: #222*/
+}
+.subscribe{
+    width: 250px;
+    height: 45px;
+    /*background-color: #666666;*/
+    color: #777777;
+    position: absolute;
+    left: 36%;
+    top: 130px;
+}
+.e-mail{
+    border-bottom: 1px solid #222;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 62%;
+    width: 30%;
+    height: 23px;
+}
+.subscribe-1{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 87%;
+    font-size: 14px;
+}
+.subscribe-1:hover{
+    font-style: italic;
+}
+.demands{
+    width: 95%;
+    height: 85vh;
+    margin: 100px auto;
+    /*background-color: #7ca4df; */  
+}
+.highlights{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: larger;
+    font-weight: 500;
+    color: #666666;
+}
+.highlights1:hover{
+    color: #0f0d0d;
+}
+.highlights2:hover{
+    color: #0f0d0d;
+}
+.highlights3:hover{
+    color: #0f0d0d;
+}
+.container-1{
+    width: 100%;
+    height: 80vh;
+    /*background-color: #777777;*/
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.discount-1{
+    width: 60px;
+    height: 25px;
+    border: 1px solid#222;
+    background: #222;
+    color: #FFFFFF;
+    position: absolute;
+    top: 6%;
+    right: 75%;
+}
+.icons2{
+    background-color: #7D7D7D;
+    color: #F6F6F6;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    bottom: 28.10%;
+    width: 100%;
+    height:48px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.product:hover .icons2{
+    opacity: 1;
+    transition: .5s;
+}
+.arrow-left-2{
+    /*background-color: #8c1717;*/
+    margin-top: 16%;
+    left: 2px;
+    position: absolute;
+}
+.arrow-right-2{
+    /*background: #8c1717;*/
+    position: absolute;
+    right: 2px;
+    margin-top: 16%;
+}
+.color{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6B302C;
+    position: absolute;
+    bottom: .6%;
+    left: 34%;
+}
+.color:hover .o-c{
+    width: 25px;
+    height: 25px;
+    border-radius:50%; 
+    border:1px solid #222;
+    margin-right: 25%;
+    bottom: 0%;
+    position: absolute;
+}
+.color-1{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #E6D4B4;
+    position: absolute;
+    bottom: .6%;
+}
+.more-clr{
+    position: absolute;
+    bottom: .6%;
+    left: 57%;
+}
+.outer-border{
+    width: 25px;
+    height: 25px;
+    border-radius:50%; 
+    border:1px solid #222;
+    margin-right: 25%;
+    bottom: 0%;
+    position: absolute;
+}
+.o-c{
+    width: 25px;
+    height: 25px;
+    border-radius:50%; 
+    border:1px solid #222;
+    margin-right: 25%;
+    bottom: 0%;
+    left:45.2%;
+    position: absolute;
+}
+.testimonial{
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    background-image: url(https://mafoil-furnitures.myshopify.com/cdn/shop/files/bg-test.jpg?v=1678178158);
+    position: relative;
+    background-size: auto;
+    background-position-x: center;
+
+}
+.tests{
+    font-size: xx-large;
+    font-weight: 500;
+    position: absolute;
+    left: 39.5%;
+    top: 20%;
+}
+.review{
+    color: #FF9A17;
+    font-size: large;
+    position: absolute;
+    left: 39.5%;
+    top: 40%;
+}
+.review-1{
+    width: 47%;
+    line-height: 30px;
+    font-size: large;
+    position: absolute;
+    left: 39.5%;
+    top: 50%;
+}
+.r-name{
+    position: absolute;
+    left: 39.5%;
+    top: 70%;
+    font-weight: 400;
+}
+.hyphen{
+    width: 20px;
+    border-bottom: 2px solid #222;
+    position: absolute;
+    top:72.5%;
+    left: 50%;
+}
+.designer{
+    position: absolute;
+    top: 70%;
+    left: 53%;
+}
+.container-2{
+    width: 95%;
+    height: 50%;
+    margin: 30px auto;
+    /*background-color: #E6D4B4;*/
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /*background-color: aquamarine;*/
+}
+.banner-icon{
+    width: 50px;
+    height:50px;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 42%;
+    background-color: #222;
+    border-radius: 50%;
+}
+.ri-home-4-fill{
+    font-size: xx-large;
+    position: absolute;
+    left: 18%;
+    top: 10%;
+}
+.ri-bank-card-line{
+    font-size: xx-large;
+    position: absolute;
+    left: 18%;
+    top: 16%;
+}
+.ri-corner-down-left-fill{
+    font-size: xx-large;
+    position: absolute;
+    left: 15%;
+    top: 16%;
+}
+.ri-customer-service-2-line{
+    font-size: xx-large;
+    position: absolute;
+    left: 18%;
+    top: 16%;
+}
+.f-s{
+    font-size: large;
+    font-weight: 400;
+    position: absolute;
+    top: 45%
+}
+.content{
+    position: absolute;
+    top: 55%;
+}
+.content-1{
+    position: absolute;
+    top: 63%;
+}
+.more-info{
+    position: absolute;
+    top:75%;
+    color: #222;
+}
+.arrow-left-3{
+    /*background-color: #8c1717;*/
+    margin-top: 22%;
+    left: 37%;
+    position: absolute;
+}
+.arrow-right-3{
+    /*background: #8c1717;*/
+    position: absolute;
+    right: 11%;
+    margin-top: 22%;
+}
+.images{
+    width: 95%;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #E6D4B4;
+    display: flex;
+}
+.img{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: aquamarine;
+}
+.img-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.b-icon{
+    width: 30px;
+    height:30px;
+    color: #222;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    background-color: white;
+    border-radius: 50%;
+}
+.add-icon{
+    position: absolute;
+    top: 56.5%;
+    left: 38%;
+}
+.b-icon:hover{
+    background-color: #0f0d0d;
+    color: #FFFFFF;
+
+}
+.add-icon:hover{
+    color: #FFFFFF;
+    background-color: #0f0d0d;
+}
+.b-icon-1{
+    width: 30px;
+    height:30px;
+    color: #222;
+    position: absolute;
+    top: 22%;
+    left: 42%;
+    background-color: white;
+    border-radius: 50%;
+}
+.add-fill{
+    font-size: medium;
+    position: absolute;
+    left: 18%;
+    top: 16%;
+}
+.footer{
+    width: 95%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #666666;
+}
+.footer-content{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aquamarine;
+}
+.about-us{
+    font-size: x-large;
+    font-weight: 500;
+    position: absolute;
+    top:20%;
+}
+.f-content{
+    position: absolute;
+    top: 35%;
+}
+.f-content-1{
+    position: absolute;
+    top: 49%; 
+}
+.mail{
+    position: absolute;
+    top:57%; 
+}
+.fb-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #b9b9b9;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 65%;
+}
+.fb{
+    position: absolute;
+    top: 65.5%;
+    left: 2%;
+}
+.t-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #b9b9b9;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+.twitter{
+    position: absolute;
+    top: 66%;
+    left: 18%;
+}
+.w-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #b9b9b9;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+}
+.wa{
+    position: absolute;
+    top: 66%;
+    left: 32.5%;
+}
+.tt-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #b9b9b9;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+.tik-tok{
+    position: absolute;
+    top: 66%;
+    left: 47.5%;
+}
+@media(max-width:1200px){
+    
+}
+@media(max-width:600px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .main{
+        height: 100%;
+    }
+    .img{
+        width: 80%;
+        height: 100%;
+    }
+    .heading{
+        top: 1%;
+        left: 1%;
+        width: 30%;
+        height: 70%;
+    }
+    .h1{
+        font-size: 20px; 
+    }
+}
