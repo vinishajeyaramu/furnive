@@ -9,9 +9,37 @@ body{
     width: 98.5vw;
     overflow-x: hidden ;
 }
+.black{
+    width: 100%;
+    background-color: #222;
+}
+.nav{
+    width: 95.5%;
+    height: 7vh;
+    margin: 0 auto;
+    background-color: #222;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dtls{
+    color: #FFFFFF;
+}
+.additionals{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.currency{
+    background-color: #0f0d0d;
+    color: #FFFFFF;
+}
 .nav-bar{
     width: 95%;
-    height: 80px;
+    height: 17%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -72,7 +100,7 @@ body{
 } */
 .logo{
     height: 80%;
-    width: 30%;
+    width: 25%;
     /*background-color: blanchedalmond;*/
 }
 .icons{
@@ -326,7 +354,6 @@ body{
     /*background-color: aquamarine;*/
     margin:  30px auto;
     display: flex;
-    gap: 80px;
     justify-content: space-between;
 }
 .product{
@@ -993,28 +1020,33 @@ body{
     /*background-color: aquamarine;*/
 }
 .footer-head{
-    font-size: 27px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     position: absolute;
     top:20%;
 }
 .f-content{
     position: absolute;
     top: 35%;
+    font-size: 15px;
+    width: 60%;
+
 }
 .f-content-1{
     position: absolute;
-    top: 49%; 
+    top: 47%; 
+    font-size: 15px;
 }
 .mail{
     position: absolute;
-    top:57%; 
+    top:55%; 
+    font-size: 15px;
 }
 .f-icon{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
 }
 .fb-circle{
     width: 40px;
@@ -1023,13 +1055,12 @@ body{
     border: 1px solid #b9b9b9;
     background-color: #FFFFFF;
     position: absolute;
-    top: 65%;
-    left: 2%;
+    top: 63%;
 }
 .fb{
     position: absolute;
-    top: 66.5%;
-    left: 6%;
+    top: 65%;
+    left: 3%;
     font-size: larger;
 }
 .t-circle{
@@ -1039,13 +1070,13 @@ body{
     border: 1px solid #b9b9b9;
     background-color: #FFFFFF;
     position: absolute;
-    top: 65%;
-    left: 22%;
+    top: 63%;
+    left: 18%;
 }
 .twitter{
     position: absolute;
-    top: 66.5%;
-    left: 26%;
+    top: 65%;
+    left: 22%;
     font-size: larger;
 }
 .w-circle{
@@ -1055,13 +1086,13 @@ body{
     border: 1px solid #b9b9b9;
     background-color: #FFFFFF;
     position: absolute;
-    top: 65%;
-    left: 42%;
+    top: 63%;
+    left: 36%;
 }
 .wa{
     position: absolute;
-    top: 65.5%;
-    left: 45%;
+    top: 63.5%;
+    left: 39%;
     font-size: x-large;
 }
 .tt-circle{
@@ -1071,13 +1102,13 @@ body{
     border: 1px solid #b9b9b9;
     background-color: #FFFFFF;
     position: absolute;
-    top: 65%;
-    left: 62%;
+    top: 63%;
+    left: 54%;
 }
 .tik-tok{
     position: absolute;
-    top: 66.5%;
-    left: 65%;
+    top: 65%;
+    left: 57%;
     font-size: larger;
 }
 .footer-content-1{
@@ -1093,6 +1124,7 @@ body{
     position: absolute;
     top: 35%;
     line-height: 25px;
+    font-size: 15px;
 }
 .f-li:hover{
     color: #222222;
@@ -1108,6 +1140,7 @@ body{
 .footer-content-3{
     width: 30%;
     height: 100%;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -1123,6 +1156,8 @@ body{
     position: absolute;
     top: 35%;
     left: 37%;
+    font-size: 14px;
+    font-weight: 400;
 }
 .f-furniture{
     width: 66%;
@@ -1130,24 +1165,24 @@ body{
     left: 37%;
     line-height: 40px;
     position: absolute;
-    font-size: x-large;
+    font-size: large;
     font-weight: 500;
 }
 .letters{
     position: absolute;
     left: 37%;
-    top: 70%;
+    top: 60%;
     line-height: 30px;
 }
 .ftr-img-1{
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 100%;
+    top: 90%;
 }
 .ftr-content-1{
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 37%;
 }
 .f-furniture-1{
@@ -1156,7 +1191,7 @@ body{
     left: 37%;
     line-height: 40px;
     position: absolute;
-    font-size: x-large;
+    font-size: large;
     font-weight: 500;
 }
 .letters-1{
