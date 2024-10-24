@@ -1,3 +1,77 @@
-.black{
-    background-color: yellowgreen;
+*{
+    margin: 0;
+    padding: 0;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Furnive</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Featured</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Collections</h2>
+            <ul>
+                <li><a href="#">Bathroom (15)</a></li>
+                <li><a href="#">Lighting (3)</a></li>
+                <li><a href="#">Living Room (8)</a></li>
+                <li><a href="#">Office (5)</a></li>
+            </ul>
+
+            <h2>Availability</h2>
+            <form>
+                <input type="radio" name="availability" id="in-stock" checked>
+                <label for="in-stock">In stock (14)</label><br>
+                <input type="radio" name="availability" id="out-stock">
+                <label for="out-stock">Out of stock (1)</label>
+            </form>
+
+            <h2>Price</h2>
+            <input type="range" min="0" max="100" value="100">
+            <p>Price: $0.00 - $100.00</p>
+        </aside>
+
+        <section class="product-grid">
+            <div class="product">
+                <img src="about-a-chair.png" alt="About A Chair AAC 22">
+                <h3>About A Chair AAC 22</h3>
+                <p class="price"><span class="discounted">$80.00</span> <span class="original">$110.00</span></p>
+                <p class="discount">-27%</p>
+            </div>
+            <div class="product">
+                <img src="artemis-lounge-chair.png" alt="Artemis Lounge Chair">
+                <h3>Artemis Lounge Chair</h3>
+                <p class="price"><span class="discounted">$90.00</span> <span class="original">$100.00</span></p>
+                <p class="discount">-10%</p>
+            </div>
+            <div class="product">
+                <img src="bend-goods-farmhouse-chair.png" alt="Bend Goods Farmhouse Chair">
+                <h3>Bend Goods Farmhouse Chair</h3>
+                <p class="price">$70.00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Furniture Store © 2024</p>
+    </footer>
+
+</body>
+</html>
